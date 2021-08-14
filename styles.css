@@ -6,6 +6,40 @@
     background-color: #003334 !important;
 }
 
+.TEXT-BELOW-VIDEO{
+  font-weight: bold;
+}
+
+.VIDEO-DESCRIPTION{
+  margin-left: 250px;
+  font-size: small;
+}
+
+.BADGE{
+  transform: translate(0%, -800%);
+  width: 90px;
+  margin-left: 10px;
+}
+
+.CARD1{
+  background-color: #3980EA;
+  margin-top: -35px;
+}
+.CARD2{
+  background-color: #003334;
+}
+.CARD3{
+  background-color: #E03F2B;
+}
+
+
+
+.avatar {
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
 
 
 section#video-container {
@@ -92,7 +126,8 @@ section#video-container {
 .VIDEO-TEXT{
     margin-top: 100%;
     z-index: 5 !important;
-    transform: translateX(50%);
+    /* transform: translateX(50%); */
     overflow: visible !important;
 
 }
+
